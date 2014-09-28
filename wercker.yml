@@ -22,4 +22,4 @@ build:
     - script:
         name: run the beaker test suite
         code: |
-          BEAKER_set=centos-64-x64-docker bundle exec rspec spec/acceptance/
+          BEAKER_set=debian-6-x64-docker bundle exec rspec spec/acceptance/
